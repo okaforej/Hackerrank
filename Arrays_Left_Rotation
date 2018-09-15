@@ -8,7 +8,7 @@ import sys
 
 # Complete the rotLeft function below.
 def rotLeft(a, d):
-# My Solution Below
+    # My Solution Below
     return a[d:] + a[:d]
 
 if __name__ == '__main__':
